@@ -12,10 +12,10 @@
  * 6. It will print the sorted names and grades
  **********************************************************************************************************************/
 
-package Assignment.pgupta85_Assignment2.src.Q2;
+package Assignment.pgupta85_LabAssignment2.src.Q2;
 
 import java.util.*;
-import static  Assignment.pgupta85_Assignment2.src.Method.Intro.*;
+import static  Assignment.pgupta85_LabAssignment2.src.Method.Intro.*;
 
 public class Pratik_SortNameAndGrade {
     public static void main(String[] args) {

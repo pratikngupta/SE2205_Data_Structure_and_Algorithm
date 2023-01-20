@@ -7,7 +7,7 @@
  * 1) This code will sort the array using different sorting algorithms and will print the time taken by each algorithm to sort the array.
  * 2) We have tried to make it as Generic as possible so that it can be used for any type of data.
  **********************************************************************************************************************/
-package Assignment.pgupta85_Assignment2.src.Q1;
+package Assignment.pgupta85_LabAssignment2.src.Q1;
 
 //importing the java utility package
 import java.util.*;

@@ -14,7 +14,7 @@
         6) With help of try/catch this will avoid any exception and ensure that user will only enter the type of input requested.
  *********************************************************/
 
-package Assignment.pgupta85_Assignment2.src.Method;
+package Assignment.pgupta85_LabAssignment2.src.Method;
 
 //Import Scanner Class
 import java.util.InputMismatchException;

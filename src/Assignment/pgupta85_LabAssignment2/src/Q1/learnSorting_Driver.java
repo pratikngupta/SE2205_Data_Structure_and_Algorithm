@@ -9,10 +9,10 @@
  * We will be working with collection. Sort, bubble sort, selection sort, insertion sort, merge sort, quick sort, bucket sort.
  **********************************************************************************************************************/
 
-package Assignment.pgupta85_Assignment2.src.Q1;
+package Assignment.pgupta85_LabAssignment2.src.Q1;
 
-import static  Assignment.pgupta85_Assignment2.src.Method.Intro.*;
-import static Assignment.pgupta85_Assignment2.src.Q1.PratikTestingSortingMethods.*;
+import static  Assignment.pgupta85_LabAssignment2.src.Method.Intro.*;
+import static Assignment.pgupta85_LabAssignment2.src.Q1.PratikTestingSortingMethods.*;
 import java.util.*;
 
 public class learnSorting_Driver {

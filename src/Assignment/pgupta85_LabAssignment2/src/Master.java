@@ -1,4 +1,4 @@
-package Assignment.pgupta85_Assignment2.src; /***********************************************************************************************************************
+package Assignment.pgupta85_LabAssignment2.src; /***********************************************************************************************************************
  * Name: Pratik Narendra Gupta
  * Date: 10/20/2020
  * Student ID: 251211859
@@ -10,10 +10,10 @@ package Assignment.pgupta85_Assignment2.src; /**********************************
  **********************************************************************************************************************/
 
 
-import Assignment.pgupta85_Assignment2.src.Q1.learnSorting_Driver;
-import Assignment.pgupta85_Assignment2.src.Q2.Pratik_SortNameAndGrade;
+import Assignment.pgupta85_LabAssignment2.src.Q1.learnSorting_Driver;
+import Assignment.pgupta85_LabAssignment2.src.Q2.Pratik_SortNameAndGrade;
 
-import static  Assignment.pgupta85_Assignment2.src.Method.Intro.*;
+import static  Assignment.pgupta85_LabAssignment2.src.Method.Intro.*;
 
 public class Master {
     public static void main(String[] args) {

@@ -8,7 +8,7 @@
  *
  **********************************************************************************************************************/
 
-package Assignment.pgupta85_Assignment2.src.Q2;
+package Assignment.pgupta85_LabAssignment2.src.Q2;
 
 public class StudentGrade implements Comparable<StudentGrade> {
 
