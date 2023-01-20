@@ -1,0 +1,40 @@
+Here are some sample questions for your demo-prep. The TAs can ask any kind of question if those are related to this lab.
+Sample questions:
+
+1. revise the code so that it pops all the elements from the stack
+
+2. revise the code to push 78, 29, -93 in the stack
+
+3. revise the queue to dequeue all the elements from the queue
+
+4. revise the queue to enqueue 3 strings in the queue
+
+5. what is the advantage of using linked list to realize a queue or a stack instead of an array. What is the price we need to pay?
+    Overflow can never occur unless the memory is actually full, the list elements can be easily inserted or removed without reallocation or reorganization of the entire structure.
+
+6. revise the code so that it uses the linked list 'tail' as the front of the queue, and its head as the rear of the queue.
+
+7. Will the order of the elements in the singly linked list change if you populate the SLL by adding all the elements from the head side or from the tail side?
+
+8. For this exercise, will the code work if we don’t define any constructor in the SinglyLinkList<T> Class? Yes/NO? What is the rationale behind your response.
+
+9. revisit the code so that when you choose ‘2’, the list is completely emptied (just as you did for choice 1).
+
+10. Do we really need the methods related to Stack (push/pop) and Queue (enqueue/dequeue)? Yes/No? What is the rationale behind your response?
+    NO, we can also use addFirst, addLast and removeFirst, removeLast to implement stack and queue.
+
+9. Instead of declaring as a local reference-variable, what is the rationale behind using the Scanner reference-variable as a field in the driver class?
+
+10. Explain with diagram how you implemented remvoveLast() method. Also, toString() method.
+
+11. Explain the advantage of implementing the toString() method.
+
+12. Explain whether an element can be added or removed from inside a singly linked list.
+    We can add element anywhere in Singly Linked List. We just need to traverse the list till the position where we want to add the element and then add the element.
+    then just point the next of the new node to the next of the previous node.
+
+13. What is the rationale behind declaring the Node and SinglyLinkList classes as generic ones.
+    Any type of variable can be passed to the Node and SinglyLinkList classes. So, we can use the same class for different types of variables.
+
+14. Can your search method be used for any type (double, float, char, int or any object-reference type) of singlyLinkList. What is the rationale behind your response?
+    Yes, it can be used for any type of singlyLinkList. Because we have used generics in the Node and SinglyLinkList classes.

@@ -1,0 +1,76 @@
+1. What is ‘natural order’.
+-- Natural order is the order in which the objects are stored in the array.
+-- For example, the natural order is the order in which the students are stored in the array.
+
+2. What is ‘order by comparator’.
+-- Order by comparator is the order in which the objects are stored in the array after the comparator is used.
+-- For example, the order by comparator is the order in which the students are stored in the array after the comparator is used.
+
+3. What do you need to do if you would like to sort the instantiated objects of a class called ‘MyClass’ using natural order?
+-- You need to implement the Comparable interface in the class MyClass.
+-- You need to override the compareTo method in the class MyClass.
+
+4. What is stability of sorting algorithm.
+-- Stability of sorting algorithm is the property of the sorting algorithm that preserves the relative order of the records with equal keys.
+-- For example, if the students have the same grade, then the students with the same grade will be sorted in the descending order of their names.
+
+5. How the stability of a sorting algorithm is ensured.
+-- The stability of a sorting algorithm is ensured by using the comparator.
+-- The comparator is used to compare the objects of the class.
+
+6. Can any sorting algorithm be made stable?
+-- Yes, any sorting algorithm can be made stable by using the comparator.
+
+7. What are the inherently stable sorting algorithms?
+-- Merge sort and insertion sort are the inherently stable sorting algorithms.
+-- The merge sort and insertion sort are stable because they preserve the relative order of the records with equal keys.
+
+8. Can Radix sort be used to sort the instantiated objects of a class called ‘MyClass’. What is the reasoning of your response?
+-- Yes, Radix sort can be used to sort the instantiated objects of a class called ‘MyClass’. Radix sort is a stable sorting algorithm.
+
+9. If you sort an array with same dataset, with the same algorithm, in the same machine twice, will the execution time for both runs will be the same? What is the basis of your response?
+-- No, the execution time for both runs will not be the same. The execution time for both runs will be different because the time taken by the algorithm to sort the array depends on the number of comparisons and the number of comparisons depends on the order of the elements in the array.
+-- For example, if the array is already sorted, then the time taken by the algorithm to sort the array will be less than the time taken by the algorithm to sort the array if the array is not sorted.
+
+10. How have you picked the pivot in the quick sort algorithm? What is the justification of this choice?
+-- I have picked the pivot as the last element in the array. The justification of this choice is that the pivot is the last element in the array so that the pivot will be the largest element in the array and the pivot will be placed at the correct position in the array after the partition method is called.
+-- For example, if the pivot is the first element in the array, then the pivot will be the smallest element in the array and the pivot will not be placed at the correct position in the array after the partition method is called.
+
+11. If you call the quick-sort method to sort an already sorted array based on the implementation you presented what would happen in terms of time and space complexity. What is the basis of your response?
+-- If you call the quick-sort method to sort an already sorted array based on the implementation you presented then the time complexity will be O(n^2) and the space complexity will be O(n).
+-- The basis of my response is that the time complexity of the quick-sort algorithm is O(n^2) and the space complexity of the quick-sort algorithm is O(n).
+
+12. Modify any algorithm to do the sorting in descending order.
+-- flip the equality sign around when you compare the elements in the array. Selection Sort, bubble Sort and Insertion are easiest to change to descending order.
+
+13. Explain how you generate a random number between min and max inclusive using Math.random() method.
+-- I have used the formula (int)(min + Math.random()*(max-min+1)) to generate a random number between min and max inclusive using Math.random() method.
+    //range: 13 to 93 inclusive = 93-13+1 = 81  //general eq for range = max-min+1
+    //min = 13
+    //max = 93
+    //general format for Math.random() = (int)(Math.random()*range + min): this will return double typed number. Hence, cast it to int, if required.
+        mainArray[i] = (int) (Math.random() * 81 + 13);
+
+14. If you have a smaller dataset of 50 elements, which algorithm would you choose to sort that set, and why?
+-- I would choose the insertion sort algorithm to sort the set of 50 elements because the insertion sort algorithm is the most efficient algorithm for sorting a small number of elements.
+-- The insertion sort algorithm is the most efficient algorithm for sorting a small number of elements because the insertion sort algorithm has a time complexity of O(n) and the insertion sort algorithm has a space complexity of O(1).
+
+15. If you create a class MyClass that implements Comparable<T> interface, would you prefer choosing primitive datatype (when needed) over Wrapper class object reference. What is the basis of your response?
+-- I would prefer choosing primitive datatype (when needed) over Wrapper class object reference because the primitive datatype is more efficient than the Wrapper class object reference.
+-- The basis of my response is that the primitive datatype is more efficient than the Wrapper class object reference because the primitive datatype is stored in the stack and the Wrapper class object reference is stored in the heap.
+
+16. If you would like to do Bucket-search Strings that use alphabetical characters, how many buckets would you need to accomplish this? Why?
+-- I would need 26 buckets to accomplish this because there are 26 alphabetical characters.
+
+17. What would be your preference between Merge and quick sort? Why?
+-- I would prefer the merge sort algorithm over the quick sort algorithm because the merge sort algorithm is more efficient than the quick sort algorithm.
+
+18. If you are sorting integer data set, what would be your sorting algorithm choice? Why?
+-- I would choose the merge sort algorithm to sort the integer data set because the merge sort algorithm is more efficient than the quick sort algorithm.
+-- The basis of my response is that the merge sort algorithm has a time complexity of O(n log n) and the merge sort algorithm has a space complexity of O(n).
+-- The merge sort algorithm is more efficient than the quick sort algorithm because the merge sort algorithm has a time complexity of O(n log n) and the merge sort algorithm has a space complexity of O(n).
+-- The quick sort algorithm has a time complexity of O(n^2) and the quick sort algorithm has a space complexity of O(n).
+
+19. Point out in the code, how the best-case time complexity of Insertion sort is O(n). Also, do the same for Bubble sort.
+-- In the code, the best-case time complexity of Insertion sort is O(n) because the for loop will not be executed if the array is already sorted.
+-- In the code, the best-case time complexity of Bubble sort is O(n) because the while loop will not be executed if the array is already sorted.
