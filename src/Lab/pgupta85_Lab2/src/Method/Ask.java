@@ -13,7 +13,7 @@
         6) With help of try/catch this will avoid any exception and ensure that user will only enter the type of input requested.
  *********************************************************/
 
-package Method;
+package Lab.pgupta85_Lab2.src.Method;
 
 //Import Scanner Class
 import java.util.Scanner;

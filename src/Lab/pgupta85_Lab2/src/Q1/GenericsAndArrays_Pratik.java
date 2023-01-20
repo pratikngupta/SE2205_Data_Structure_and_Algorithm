@@ -12,9 +12,9 @@
  6) If year is equal, it will print out the value of Pair object
  *************************************************************************************************************************/
 
-package Q1;
+package Lab.pgupta85_Lab2.src.Q1;
 
-import Method.*;  //Import Ask class from Method package
+import Lab.pgupta85_Lab2.src.Method.*;  //Import Ask class from Method package
 import java.util.*; //Importing package for ArrayList and Arrays
 
 public class GenericsAndArrays_Pratik {
