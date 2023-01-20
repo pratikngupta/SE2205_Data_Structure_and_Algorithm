@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Q2.Pratik_SortNameAndGrade</OriginalElement>
+  <nodes>
+    <node x="-127.0" y="-14.0">Q2.Pratik_SortNameAndGrade</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="10.5" y="56.0" />
+  <SelectedNodes>
+    <node>Q2.Pratik_SortNameAndGrade</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
