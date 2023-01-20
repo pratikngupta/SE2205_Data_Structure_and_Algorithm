@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Method.Intro</OriginalElement>
+  <nodes>
+    <node x="-29.0" y="-68.5">Method.Ask</node>
+    <node x="-41.5" y="289.5">Method.Intro</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Method.Intro" target="Method.Ask" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="148.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="85.0" y="169.5" />
+  <SelectedNodes>
+    <node>Method.Intro</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
