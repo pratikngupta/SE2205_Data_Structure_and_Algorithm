@@ -1,8 +1,10 @@
-import Q1.PratikExerciseOnFileMapSet;
+package Lab.pgupta85_LabExcercise4.src;
+
+import  Lab.pgupta85_LabExcercise4.src.Q1.PratikExerciseOnFileMapSet;
 
 import java.io.FileNotFoundException;
 
-import static Method.Intro.*;
+import static  Lab.pgupta85_LabExcercise4.src.Method.Intro.*;
 
 
 public class Master {

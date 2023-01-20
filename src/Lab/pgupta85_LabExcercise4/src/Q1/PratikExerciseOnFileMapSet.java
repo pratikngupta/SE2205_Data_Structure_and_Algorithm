@@ -8,11 +8,11 @@
 2) It will then print the map according to first and last name.
  *************************************************************************************************************************/
 
-package Q1;
+package Lab.pgupta85_LabExcercise4.src.Q1;
 
 import java.io.*; // for file handling and exceptions
 import java.util.*; // for Map, HashMap, Set, TreeSet
-import static Method.Intro.*; //importing the Intro class from the Method package
+import static   Lab.pgupta85_LabExcercise4.src.Method.Intro.*; //importing the Intro class from the Method package
 
 public class PratikExerciseOnFileMapSet {
 
@@ -22,7 +22,7 @@ public class PratikExerciseOnFileMapSet {
         //Setting up the file with try catch block to handle the exception
         Scanner input = null;
         try {
-            File nameList = new File("src/Q1/SE2205Students.txt");
+            File nameList = new File("src/Lab/pgupta85_LabExcercise4/src/Q1/SE2205Students.txt");
             input = new Scanner(nameList);
         } catch (FileNotFoundException e) {
             System.out.println(red + "File not found!");

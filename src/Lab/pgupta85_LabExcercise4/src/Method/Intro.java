@@ -13,7 +13,7 @@
  5) Hence I would only need to import this method and can access any method of Ask class.
  *********************************************************/
 
-package Method;
+package Lab.pgupta85_LabExcercise4.src.Method;
 
 public class Intro extends Ask {
 
