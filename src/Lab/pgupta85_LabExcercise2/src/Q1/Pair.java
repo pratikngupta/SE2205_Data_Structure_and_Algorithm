@@ -5,7 +5,7 @@
  * Task: Create generic class Pair which will take two generic type of data and will return the data in form of pair.
  *************************************************************************************************************************/
 
-package Lab.pgupta85_Lab2.src.Q1;
+package Lab.pgupta85_LabExcercise2.src.Q1;
 
 public class Pair<Y,N> {
     private Y key;

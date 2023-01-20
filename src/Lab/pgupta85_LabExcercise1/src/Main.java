@@ -1,4 +1,4 @@
-package Lab.pgupta85_Lab1.src;
+package Lab.pgupta85_LabExcercise1.src;
 
 public class Main {
     public static void main(String[] args) {

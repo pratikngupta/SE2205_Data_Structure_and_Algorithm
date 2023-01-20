@@ -2,21 +2,28 @@
  Name: Pratik Narendra Gupta
  Student ID: 251211859
  Date: 18th September
+ Modified: 1st October
  Task: Create a class which can be imported and make writing code easy.
         What will this class do?
         1) This is an advance Scanner with few additional feature
         2) This will help in getting input from user and assign it to variable
         3) this will avoid declaring, import Scanner class in every java file.
         4) Coder will be able to pass message and request the type of input he/she is hoping to get.
-        5 Depending on type of request, this will print out message, get input from user and return that input.
+        5) Depending on type of request, this will print out message, get input from user and return that input.
+        6) With help of try/catch this will avoid any exception and ensure that user will only enter the type of input requested.
  *********************************************************/
 
-package Lab.pgupta85_Lab1.src.Method;
+package Lab.pgupta85_LabExcercise2.src.Method;
 
 //Import Scanner Class
 import java.util.Scanner;
 
 public class Ask {
+
+    public static final String reset = "\u001B[0m";
+//    public static final String blue = "\u001B[34m";
+//    public static final String purple = "\u001B[35m";
+    public static final String red = "\u001B[31m";
 
     //Declaring Scanner type reference variable
     public static Scanner input = new Scanner(System.in);
@@ -30,11 +37,24 @@ public class Ask {
     }
 
     //This will accept string message and will return integer value it got from user.
-    //Only flaw is that this will assume that user has entered integers value.
-    //Will fixed this flaw later on.
-    public static int getInt (String message){
+    //This make use of try/catch to avoid any exception removing the flaw it once had.
+    //If user enter any other type of value, it will print error message and ask user to enter integer value again.
+    public static int getInt (String message, int opt){
+        if (opt == 1) {
+            while (true){
+                try {
+                    printMessage(message);
+                    return input.nextInt();
+                } catch (Exception e) {
+                    System.out.println(red + "Please enter valid number" + reset);
+                    input.nextLine();
+                }
+            }
+        }
+
         printMessage(message);
         return input.nextInt();
+
     }
 
     //This will accept string message and will return double value it got from user.
@@ -60,7 +80,7 @@ public class Ask {
         return input.next().charAt(0);
     }
 
-    //This will accept string message and int value and will return string value it got from user.
+    //This will accept string message and print it on screen.
     public static String getString (String message){
         printMessage(message);
         if (input.hasNextLine()){

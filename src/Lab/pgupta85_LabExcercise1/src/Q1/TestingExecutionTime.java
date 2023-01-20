@@ -9,10 +9,10 @@
  -> It will also calculate the time taken using System.nanotime() by each of the method and display it to user.
  *************************************************************************************************************************/
 
-package Lab.pgupta85_Lab1.src.Q1;
+package Lab.pgupta85_LabExcercise1.src.Q1;
 
 // Importing Ask class to get input from user, this class is in \src\Method\Ask.java
-import Lab.pgupta85_Lab1.src.Method.Ask;
+import Lab.pgupta85_LabExcercise1.src.Method.Ask;
 
 public class TestingExecutionTime {
 

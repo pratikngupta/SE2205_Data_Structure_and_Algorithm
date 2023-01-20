@@ -5,6 +5,7 @@
  Modified: 1st October
  Task: Create a class which can be imported and make writing code easy.
         What will this class do?
+        $$ This is Parent class for Intro $$
         1) This is an advance Scanner with few additional feature
         2) This will help in getting input from user and assign it to variable
         3) this will avoid declaring, import Scanner class in every java file.
@@ -13,17 +14,20 @@
         6) With help of try/catch this will avoid any exception and ensure that user will only enter the type of input requested.
  *********************************************************/
 
-package Lab.pgupta85_Lab2.src.Method;
+package Method;
 
 //Import Scanner Class
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ask {
 
     public static final String reset = "\u001B[0m";
-//    public static final String blue = "\u001B[34m";
-//    public static final String purple = "\u001B[35m";
+    public static final String blue = "\u001B[34m";
+    public static final String purple = "\u001B[35m";
     public static final String red = "\u001B[31m";
+    public static final String green = "\u001B[32m";
+
 
     //Declaring Scanner type reference variable
     public static Scanner input = new Scanner(System.in);
@@ -45,7 +49,7 @@ public class Ask {
                 try {
                     printMessage(message);
                     return input.nextInt();
-                } catch (Exception e) {
+                } catch (InputMismatchException e) {
                     System.out.println(red + "Please enter valid number" + reset);
                     input.nextLine();
                 }

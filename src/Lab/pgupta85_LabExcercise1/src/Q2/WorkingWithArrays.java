@@ -9,11 +9,11 @@
  -> Then it will figure out maximum, minimum and average of number divisible by 5 and display it to user
  *************************************************************************************************************************/
 
-package Lab.pgupta85_Lab1.src.Q2;
+package Lab.pgupta85_LabExcercise1.src.Q2;
 
 // Importing Ask class to get input from user, this class is in \src\Method\Ask.java
 
-import Lab.pgupta85_Lab1.src.Method.Ask;
+import Lab.pgupta85_LabExcercise1.src.Method.Ask;
 
 public class WorkingWithArrays {
 
