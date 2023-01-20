@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Q1.Node</OriginalElement>
+  <nodes>
+    <node x="-69.0" y="300.5">Q1.Node</node>
+    <node x="-103.5" y="-13.5">Q1.DoubleLinkedList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Q1.Node" target="Q1.DoubleLinkedList" relationship="GENERALIZATION">
+      <point x="0.0" y="-126.5" />
+      <point x="0.0" y="126.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.4829931972789117" showDependencies="false" x="57.5" y="280.0" />
+  <SelectedNodes>
+    <node>Q1.DoubleLinkedList</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
