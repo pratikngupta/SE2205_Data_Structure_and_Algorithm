@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Q1.SinglyLinkList</OriginalElement>
+  <nodes>
+    <node x="96.33333333333331" y="43.333333333333336">Q1.SinglyLinkList</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="false" x="427.6666666666667" y="256.33333333333337" />
+  <SelectedNodes>
+    <node>Q1.SinglyLinkList</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+
